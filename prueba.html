@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>prueba</title>
+<script type="text/javascript">
+  function porcentaje(){
+   var x =document.getElementById('idTexto').innerHTML;
+document.getElementById('hiden').value = x;
+  }
+  function porcentaje2(){
+   var x =document.getElementById('idTexto1').innerHTML;
+document.getElementById('hiden').value = x;
+  }
+  function porcentaje3(){
+   var x =document.getElementById('idTexto2').innerHTML;
+document.getElementById('hiden').value = x;
+  }
+  function porcentaje4(){
+   var x =document.getElementById('idTexto3').innerHTML;
+document.getElementById('hiden2').value = x;
+  }
+  function porcentaje5(){
+   var x =document.getElementById('idTexto4').innerHTML;
+document.getElementById('hiden2').value = x;
+  }
+  function porcentaje6(){
+   var x =document.getElementById('idTexto5').innerHTML;
+document.getElementById('hiden2').value = x;
+  }
+  function porcentaje7(){
+   var x =document.getElementById('idTexto6').innerHTML;
+document.getElementById('hiden3').value = x;
+  }
+  function porcentaje8(){
+   var x =document.getElementById('idTexto7').innerHTML;
+document.getElementById('hiden3').value = x;
+  }
+  function porcentaje9(){
+   var x =document.getElementById('idTexto8').innerHTML;
+document.getElementById('hiden3').value = x;
+  }
+</script>
+</head>
+<body>
+ <form action="formulario.php" method="POST">
+   <center>Tema1</center>
+   <span id="idTexto">Hola</span>
+   <input type="radio" name="1" value="3" onchange="porcentaje()">
+   <input type="radio" name="1" value="3" onchange="porcentaje()">
+   <input type="radio" name="1" value="3" onchange="porcentaje()">
+   <br>
+   <span id="idTexto1">Hola como estas</span>
+   <input type="radio" name="1" value="3" onchange="porcentaje2()">
+   <input type="radio" name="1" value="3" onchange="porcentaje2()">
+   <input type="radio" name="1" value="3" onchange="porcentaje2()">
+   <br>
+   <span id="idTexto2">Hola pucho</span>
+   <input type="radio" name="1" value="3" onchange="porcentaje3()">
+   <input type="radio" name="1" value="3" onchange="porcentaje3()">
+   <input type="radio" name="1" value="3" onchange="porcentaje3()">
+   <input type="text" id="hiden" name="valor" value="">
+ <center>tema 2</center>
+ <span id="idTexto3">Hola</span>
+   <input type="radio" name="2" value="3" onchange="porcentaje4()">
+   <input type="radio" name="2" value="3" onchange="porcentaje4()">
+   <input type="radio" name="2" value="3" onchange="porcentaje4()">
+   <br>
+   <span id="idTexto4">que tal</span>
+   <input type="radio" name="2" value="3" onchange="porcentaje5()">
+   <input type="radio" name="2" value="3" onchange="porcentaje5()">
+   <input type="radio" name="2" value="3" onchange="porcentaje5()">
+   <br>
+   <span id="idTexto5">rosa</span>
+   <input type="radio" name="2" value="3" onchange="porcentaje6()">
+   <input type="radio" name="2" value="3" onchange="porcentaje6()">
+   <input type="radio" name="2" value="3" onchange="porcentaje6()">
+   <input type="text" id="hiden2" name="valor2" value="">
+   <center>tema 3</center>
+ <span id="idTexto6">Hola</span>
+   <input type="radio" name="3" value="3" onchange="porcentaje7()">
+   <input type="radio" name="3" value="3" onchange="porcentaje7()">
+   <input type="radio" name="3" value="3" onchange="porcentaje7()">
+   <br>
+   <span id="idTexto7">que tal</span>
+   <input type="radio" name="3" value="3" onchange="porcentaje8()">
+   <input type="radio" name="3" value="3" onchange="porcentaje8()">
+   <input type="radio" name="3" value="3" onchange="porcentaje8()">
+   <br>
+   <span id="idTexto8">rosa</span>
+   <input type="radio" name="3" value="3" onchange="porcentaje9()">
+   <input type="radio" name="3" value="3" onchange="porcentaje9()">
+   <input type="radio" name="3" value="3" onchange="porcentaje9()">
+   <input type="text" id="hiden3" name="valor3" value="">
+   <input type="submit" name="" value='enviar'>
+   </form>
+</body>
+</html>
